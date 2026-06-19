@@ -1,0 +1,13 @@
+﻿company_code,company_name,package_id,event_family,event_title,start_page,end_page,primary_pages,supporting_pages,all_pages,start_anchor,end_anchor,issuer_bound,is_mixed_page,is_non_contiguous,needs_manual_review,detection_reason
+301563,云汉芯城,301563_overall_conversion_001,overall_conversion,整体变更设立股份有限公司,53,55,53|54|55,,53|54|55,（一）发行人的设立方式,（二）云汉有限的设立情况,True,True,False,False,start_rule:overall_conversion_establishment_method
+301563,云汉芯城,301563_establishment_001,establishment,有限公司设立及初始出资,55,56,55|56,,55|56,（二）云汉有限的设立情况,（三）云汉有限设立以来股本演变情况,True,True,False,False,start_rule:limited_company_establishment
+301563,云汉芯城,301563_historical_overview_001,historical_overview,设立以来股本演变概图,56,58,56|57|58,,56|57|58,（三）云汉有限设立以来股本演变情况,三、发行人股份公司设立后的股东变化情况,True,True,False,True,start_rule:historical_overview_general
+301563,云汉芯城,301563_share_transfer_flow_001,share_transfer_flow,2018年4月第一次股权转让,58,59,58|59,,58|59,（一）2018年4月，股份公司第一次股权转让,（二）2018年6月至7月，股份公司增加注册资本暨第二次股权转让,True,True,False,False,start_rule:dated_parenthetical_share_transfer
+301563,云汉芯城,301563_subscription_flow_001,subscription_flow,2018年6月至7月增加注册资本,59,61,59|60|61,,59|60|61,（二）2018年6月至7月，股份公司增加注册资本暨第二次股权转让,（三）2019年8月，股份公司第三次股权转让,True,True,False,False,start_rule:combined_capital_increase_transfer_subscription
+301563,云汉芯城,301563_share_transfer_flow_002,share_transfer_flow,2018年6月至7月第二次股权转让,59,61,59|60|61,,59|60|61,（二）2018年6月至7月，股份公司增加注册资本暨第二次股权转让,（三）2019年8月，股份公司第三次股权转让,True,True,False,False,start_rule:combined_capital_increase_transfer_transfer
+301563,云汉芯城,301563_share_transfer_flow_003,share_transfer_flow,2019年8月第三次股权转让,61,62,61|62,,61|62,（三）2019年8月，股份公司第三次股权转让,（四）2020年5月，股份公司第二次增资,True,True,False,False,start_rule:dated_parenthetical_share_transfer
+301563,云汉芯城,301563_subscription_flow_002,subscription_flow,2020年5月第二次增资,62,63,62|63,,62|63,（四）2020年5月，股份公司第二次增资,（五）2020年9月，股份公司第三次增资和第四次股权转让,True,True,False,False,start_rule:dated_parenthetical_subscription
+301563,云汉芯城,301563_subscription_flow_003,subscription_flow,2020年9月第三次增资,63,65,63|64|65,,63|64|65,（五）2020年9月，股份公司第三次增资和第四次股权转让,（六）对赌协议解除相关情况,True,True,False,False,start_rule:combined_subscription_transfer_subscription
+301563,云汉芯城,301563_share_transfer_flow_004,share_transfer_flow,2020年9月第四次股权转让,63,65,63|64|65,,63|64|65,（五）2020年9月，股份公司第三次增资和第四次股权转让,（六）对赌协议解除相关情况,True,True,False,False,start_rule:combined_subscription_transfer_transfer
+301563,云汉芯城,301563_equity_snapshot_001,equity_snapshot,招股说明书签署日发行人股权关系图,72,73,72|73,,72|73,五、发行人的组织结构（一）公司的股权结构图,selected_page_gap,True,True,False,True,start_rule:issuer_organization_relationship_snapshot
+301563,云汉芯城,301563_equity_snapshot_002,equity_snapshot,本次发行前后股本结构,91,93,91|92|93,,91|92|93,（一）本次发行前后的股本情况,（二）发行前本公司前十名股东,True,True,False,False,start_rule:pre_post_ipo_snapshot

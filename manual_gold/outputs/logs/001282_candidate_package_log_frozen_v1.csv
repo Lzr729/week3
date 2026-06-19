@@ -1,0 +1,8 @@
+﻿company_code,company_name,package_id,event_family,event_title,start_page,end_page,primary_pages,supporting_pages,all_pages,start_anchor,end_anchor,issuer_bound,is_mixed_page,is_non_contiguous,needs_manual_review,detection_reason
+001282,三联锻造,001282_establishment_001,establishment,有限公司设立及初始出资,30,32,30|31|32,,30|31|32,（一）有限公司设立情况,（二）股份公司设立情况,True,True,False,False,start_rule:limited_company_establishment
+001282,三联锻造,001282_overall_conversion_001,overall_conversion,整体变更设立股份有限公司,32,33,32|33,,32|33,（二）股份公司设立情况,（三）报告期内的股本和股东变化情况,True,True,False,False,start_rule:overall_conversion
+001282,三联锻造,001282_historical_overview_001,historical_overview,设立以来股本演变概图,34,35,34|35,,34|35,（三）报告期内的股本和股东变化情况1、三联锻造设立以来股本演变情况概图,2、发行人报告期内的股本演变情况,True,True,False,True,start_rule:historical_overview_general
+001282,三联锻造,001282_subscription_flow_001,subscription_flow,2019年12月第一次增资,35,38,35|36|37|38,,35|36|37|38,2019年12月，股份有限公司第一次增资,（2）股份支付情况,True,True,False,False,start_rule:report_period_subscription
+001282,三联锻造,001282_equity_snapshot_001,equity_snapshot,招股说明书签署日发行人股权关系图,43,43,43,,43,三、发行人的股权结构,四、发行人控股子公司、分公司及参股公司情况,True,True,False,True,start_rule:issuer_relationship_snapshot
+001282,三联锻造,001282_equity_snapshot_002,equity_snapshot,本次发行前后股本结构,53,53,53,,53,（一）本次发行前后股本情况,（二）前十名股东,True,True,False,False,start_rule:pre_post_ipo_snapshot
+001282,三联锻造,001282_equity_snapshot_003,equity_snapshot,本次发行前完整股东结构,53,54,53|54,,53|54,（二）前十名股东,（三）前十名自然人股东,True,True,False,False,start_rule:complete_pre_ipo_shareholders

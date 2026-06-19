@@ -1,0 +1,10 @@
+﻿company_code,company_name,package_id,event_family,event_title,start_page,end_page,primary_pages,supporting_pages,all_pages,start_anchor,end_anchor,issuer_bound,is_mixed_page,is_non_contiguous,needs_manual_review,detection_reason
+301581,黄山谷捷,301581_establishment_001,establishment,有限公司设立及初始出资,38,39,38|39,,38|39,1、有限公司设立情况,002、股份公司设立情况,True,True,False,False,start_rule:limited_company_establishment
+301581,黄山谷捷,301581_overall_conversion_001,overall_conversion,整体变更设立股份有限公司,39,40,39|40,,39|40,002、股份公司设立情况,（二）发行人报告期内的股本和股东变化情况,True,True,False,False,start_rule:overall_conversion
+301581,黄山谷捷,301581_share_transfer_flow_001,share_transfer_flow,2021年4月第一次股权转让,42,42,42,,42,2、2021年4月，第一次股权转让,423、2021年4月，吸收合并,True,True,False,False,start_rule:dated_issuer_share_transfer_heading
+301581,黄山谷捷,301581_subscription_flow_001,subscription_flow,2021年4月吸收合并并增加注册资本,43,44,43|44,,43|44,3、2021年4月，吸收合并,4、2021年11月，第一次增资,True,True,False,True,start_rule:dated_absorption_merger
+301581,黄山谷捷,301581_subscription_flow_002,subscription_flow,2021年11月第一次增资,44,45,44|45,,44|45,4、2021年11月，第一次增资,005、2022年5月，第二次增资,True,True,False,False,start_rule:report_period_subscription
+301581,黄山谷捷,301581_subscription_flow_003,subscription_flow,2022年5月第二次增资,45,46,45|46,,45|46,005、2022年5月，第二次增资,00006、2022年9月，整体变更为股份公司,True,True,False,False,start_rule:report_period_subscription
+301581,黄山谷捷,301581_equity_snapshot_001,equity_snapshot,招股说明书签署日发行人股权关系图,48,49,48|49,,48|49,五、发行人的股权结构和组织结构（一）股权结构图,image_page_boundary,True,True,False,True,start_rule:issuer_relationship_snapshot
+301581,黄山谷捷,301581_equity_snapshot_002,equity_snapshot,本次发行前后股本结构,58,59,58|59,,58|59,（一）本次发行前后的股本情况,（二）本次发行前的前十名股东情况,True,True,False,False,start_rule:pre_post_ipo_snapshot
+301581,黄山谷捷,301581_equity_snapshot_003,equity_snapshot,本次发行前完整股东结构,59,59,59,,59,（二）本次发行前的前十名股东情况,（三）本次发行前的前十名自然人股东,True,True,False,False,start_rule:complete_pre_ipo_shareholders_total_100

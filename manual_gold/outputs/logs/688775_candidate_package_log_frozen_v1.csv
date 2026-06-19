@@ -1,0 +1,6 @@
+﻿company_code,company_name,package_id,event_family,event_title,start_page,end_page,primary_pages,supporting_pages,all_pages,start_anchor,end_anchor,issuer_bound,is_mixed_page,is_non_contiguous,needs_manual_review,detection_reason
+688775,影石创新,688775_establishment_001,establishment,有限公司设立及初始出资,62,63,62|63,,62|63,1、有限公司设立情况,002、股份公司设立情况,True,True,False,False,start_rule:limited_company_establishment
+688775,影石创新,688775_overall_conversion_001,overall_conversion,整体变更设立股份有限公司,63,64,63|64,,63|64,002、股份公司设立情况,（二）公司报告期内历次股本变化,True,True,False,False,start_rule:overall_conversion
+688775,影石创新,688775_share_transfer_flow_001,share_transfer_flow,2023年3月第一次股权转让,65,67,65|66|67,,65|66|67,1、2023年3月，股份公司第一次股权转让,（三）公司历次股本验资情况,True,True,False,False,start_rule:dated_issuer_share_transfer_heading
+688775,影石创新,688775_equity_snapshot_001,equity_snapshot,招股说明书签署日发行人股权关系图,69,70,69|70,,69|70,三、公司的股权结构及组织结构（一）股权结构,（二）组织结构,True,True,False,True,start_rule:issuer_relationship_snapshot
+688775,影石创新,688775_equity_snapshot_002,equity_snapshot,本次发行前后股本结构,98,99,98|99,,98|99,（一）本次发行前后的股本情况,（二）本次发行前的前十名股东,True,True,False,False,start_rule:pre_post_ipo_snapshot

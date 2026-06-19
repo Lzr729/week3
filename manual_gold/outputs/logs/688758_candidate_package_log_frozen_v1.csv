@@ -1,0 +1,14 @@
+﻿company_code,company_name,package_id,event_family,event_title,start_page,end_page,primary_pages,supporting_pages,all_pages,start_anchor,end_anchor,issuer_bound,is_mixed_page,is_non_contiguous,needs_manual_review,detection_reason
+688758,赛分科技,688758_establishment_001,establishment,有限公司设立及初始出资,50,51,50|51,,50|51,（一）公司前身赛分有限的设立情况,（二）股份公司的设立情况,True,True,False,False,start_rule:limited_company_establishment
+688758,赛分科技,688758_overall_conversion_001,overall_conversion,整体变更设立股份有限公司,51,53,51|52|53,,51|52|53,（二）股份公司的设立情况,（三）报告期内的股本和股东变化情况,True,True,False,False,start_rule:overall_conversion
+688758,赛分科技,688758_equity_snapshot_001,equity_snapshot,报告期初股权结构,53,54,53|54,,53|54,"报告期初，公司注册资本2,408.00万元，其股权结构如下",报告期内的股本和股东变化情况如下,True,True,False,False,start_rule:opening_equity_snapshot
+688758,赛分科技,688758_share_transfer_flow_001,share_transfer_flow,报告期内第一次股权转让,55,56,55|56,,55|56,（1）报告期内第一次股权转让,（2）报告期内第一次增资,True,True,False,False,start_rule:report_period_transfer_subheading
+688758,赛分科技,688758_subscription_flow_001,subscription_flow,报告期内第一次增资,56,57,56|57,,56|57,（2）报告期内第一次增资,2、2021年8月，报告期内第二次股权转让,True,True,False,False,start_rule:report_period_subscription_subheading
+688758,赛分科技,688758_share_transfer_flow_002,share_transfer_flow,2021年8月报告期内第二次股权转让,57,58,57|58,,57|58,2、2021年8月，报告期内第二次股权转让,3、2021年9月，整体变更为股份公司,True,True,False,False,start_rule:dated_report_period_transfer
+688758,赛分科技,688758_subscription_flow_002,subscription_flow,2021年11月第二次增资,59,60,59|60,,59|60,4、2021年11月，报告期内第二次增资,00005、2021年12月，报告期内第三次增资,True,True,False,False,start_rule:report_period_subscription
+688758,赛分科技,688758_subscription_flow_003,subscription_flow,2021年12月第三次增资,60,62,60|61|62,,60|61|62,00005、2021年12月，报告期内第三次增资,6、2021年12月，报告期内第一次资本公积转增股本,True,True,False,False,start_rule:report_period_subscription
+688758,赛分科技,688758_capitalization_001,capitalization,2021年12月第一次资本公积转增股本,62,64,62|63|64,,62|63|64,6、2021年12月，报告期内第一次资本公积转增股本,三、公司成立以来重要事件,True,True,False,False,start_rule:capitalization
+688758,赛分科技,688758_equity_snapshot_002,equity_snapshot,招股说明书签署日发行人完整股东结构,65,66,65|66,,65|66,五、公司股权关系与内部组织结构（一）公司股权关系,（二）公司内部组织结构,True,True,False,False,start_rule:company_relationship_snapshot
+688758,赛分科技,688758_equity_snapshot_003,equity_snapshot,本次发行前后股本结构,81,82,81|82,,81|82,（一）本次发行前后的股本结构,（二）本次发行前后公司前十名股东情况,True,True,False,False,start_rule:pre_post_ipo_snapshot
+688758,赛分科技,688758_equity_snapshot_004,equity_snapshot,本次发行前后前十名自然人股东情况,82,83,82|83,,82|83,（三）本次发行前后公司前十名自然人股东情况,（四）有关公司股本中的国有股份或外资股份的说明,True,True,False,False,start_rule:top_natural_shareholders_snapshot
+688758,赛分科技,688758_historical_context_001,historical_context,申报前十二个月股权代持解除汇总,83,83,83,,83,（五）最近一年公司新增股东情况,（六）本次发行前各股东间的关联关系,True,True,False,False,start_rule:recent_proxy_release_context

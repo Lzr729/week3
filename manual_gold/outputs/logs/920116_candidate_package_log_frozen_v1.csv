@@ -1,0 +1,9 @@
+﻿company_code,company_name,package_id,event_family,event_title,start_page,end_page,primary_pages,supporting_pages,all_pages,start_anchor,end_anchor,issuer_bound,is_mixed_page,is_non_contiguous,needs_manual_review,detection_reason
+920116,星图测控,920116_subscription_flow_001,subscription_flow,报告期内一次股票定向发行,35,35,35,217|302,35|217|302,（八）报告期内发行融资情况,（九）报告期内重大资产重组情况,True,True,True,False,start_rule:single_directed_issue_section;support:directed_issue_financial_note:217;support:directed_issue_fundraising_note:302
+920116,星图测控,920116_equity_snapshot_001,equity_snapshot,招股说明书签署日发行人股权关系图,36,36,36,,36,三、发行人的股权结构,四、发行人股东及实际控制人情况,True,True,False,True,start_rule:issuer_relationship_snapshot
+920116,星图测控,920116_equity_snapshot_002,equity_snapshot,本次发行前后股本结构,46,47,46|47,,46|47,（一）本次发行前后的股本结构,（二）本次发行前公司前十名股东情况,True,True,False,False,start_rule:pre_post_ipo_snapshot
+920116,星图测控,920116_equity_snapshot_003,equity_snapshot,本次发行前公司前十名股东情况,47,47,47,,47,（二）本次发行前公司前十名股东情况,（三）主要股东间关联关系的具体情况,True,True,False,True,start_rule:bse_top_shareholders_snapshot
+920116,星图测控,920116_establishment_001,establishment,有限公司设立及股权代持形成,48,48,48,33,33|48,1、代持基本情况,2、代持解除情况,True,True,True,False,start_rule:proxy_establishment_context;support:issuer_basic_information:33
+920116,星图测控,920116_share_transfer_flow_001,share_transfer_flow,股权代持解除转让,48,48,48,,48,2、代持解除情况,3、是否存在纠纷或潜在纠纷,True,True,False,False,start_rule:proxy_release_transfer
+920116,星图测控,920116_subscription_flow_002,subscription_flow,"2020年9月增资至2,434.00万元",217,217,217,,217,"2020年9月30日，星图测控有限召开股东会并作出决议，同意星图测控有限的注册资本由2,000.00万元增至2,434.00万元",2022年11月24日，公司召开创立大会,True,True,False,False,start_rule:financial_note_registered_capital_increase
+920116,星图测控,920116_overall_conversion_001,overall_conversion,2022年整体变更设立股份公司,217,217,217,220,217|220,2022年11月24日，公司召开创立大会,2023年5月，公司完成定向发行,True,True,True,False,start_rule:financial_note_overall_conversion;support:conversion_equity_reclassification:220

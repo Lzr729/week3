@@ -1,0 +1,9 @@
+﻿company_code,company_name,package_id,event_family,event_title,start_page,end_page,primary_pages,supporting_pages,all_pages,start_anchor,end_anchor,issuer_bound,is_mixed_page,is_non_contiguous,needs_manual_review,detection_reason
+603418,友升股份,603418_establishment_001,establishment,有限公司设立及初始出资,41,42,41|42,50|51,41|42|50|51,（一）有限责任公司的设立情况,（二）股份有限公司的设立情况,True,True,True,False,start_rule:limited_company_establishment;support_rule:establishment;support_end:三、发行人成立以来重要事件
+603418,友升股份,603418_overall_conversion_001,overall_conversion,整体变更设立股份有限公司,42,43,42|43,,42|43,（二）股份有限公司的设立情况,（三）报告期内股本和股东的变化情况,True,True,False,False,start_rule:overall_conversion
+603418,友升股份,603418_equity_snapshot_001,equity_snapshot,报告期初股权结构,43,44,43|44,,43|44,1、报告期初公司的股权结构,"3、2020年9月，增资至13,380.00万元",True,True,False,False,start_rule:opening_equity_snapshot
+603418,友升股份,603418_subscription_flow_001,subscription_flow,"2020年9月增资至13,380.00万元",44,44,44,,44,"3、2020年9月，增资至13,380.00万元","4、2022年12月，增资至14,480.1333万元",True,True,False,False,start_rule:dated_subscription
+603418,友升股份,603418_subscription_flow_002,subscription_flow,"2022年12月增资至14,480.1333万元",45,46,45|46,75|80,45|46|75|80,"4、2022年12月，增资至14,480.1333万元",（四）发行人与股东之间的特殊权益安排,True,True,True,False,start_rule:dated_subscription;support_rule:subscription_flow;support_end:（六）股东私募投资基金备案情况
+603418,友升股份,603418_share_transfer_flow_001,share_transfer_flow,2003年7月30日第一美亚向美国日升转让友升有限55%股权,48,48,48,,48,2）2003年7月30日，第一美亚向美国日升转让其所持有的友升有限55%股权,（2）股权代持原因,True,True,False,False,start_rule:issuer_share_transfer
+603418,友升股份,603418_equity_snapshot_002,equity_snapshot,招股说明书签署日发行人股权关系图,52,52,52,,52,五、发行人的股权结构,六、发行人控股和参股公司情况,True,True,False,True,start_rule:issuer_relationship_snapshot
+603418,友升股份,603418_equity_snapshot_003,equity_snapshot,本次发行前后股本结构,73,74,73|74,,73|74,（一）发行前后的股本结构,（二）本次发行前的前十名股东,True,True,False,False,start_rule:pre_post_ipo_snapshot
