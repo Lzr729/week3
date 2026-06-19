@@ -1,0 +1,6 @@
+﻿rule_or_module,evaluation_scope,applicable_count,correct_or_hit_count,error_or_miss_count,precision,recall,f1,result_interpretation,known_failure_boundary
+section_locator_v2_1,82页人工审计样本；公司=603418,14,14,0,0.2857,1.0,0.4444,高召回定位：相关页无漏检，但误选页较多；适合作为候选页召回层。,目录、风险提示、合同条款等页面可能因关键词触发而误选。
+candidate_package_generation,8家公司当前开发/回归集,71,71,0,1.0,1.0,1.0,71个候选包与当前人工事件包Gold完全匹配；属于回归评估，不是独立盲测。,新公司中可能出现跨页、非连续页和混合事件，需要继续人工复核。
+event_type_classification,71个候选事件包，人工确认后评估,71,70,1,0.9859154929577465,,,可区分增资、转让、整体变更、设立出资、资本公积转增和股权快照。,历史背景与超出范围记录可能因标题相似发生混淆。
+strict_schema_validation,49条结构化记录,49,40,9,,,,正式JSON Schema与严格Pydantic结果一致。,9条share_transfer_flow记录的transfers为空列表，未抽到转让明细。
+failure_to_review_queue,9条Schema失败记录,9,9,0,1.0,,,Schema失败记录均可追踪到人工复核任务。,当前流程生成复核任务，但不会自动修复复杂股权转让明细。

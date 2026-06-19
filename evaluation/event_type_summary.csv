@@ -1,0 +1,10 @@
+﻿label,human_support,true_positive,false_positive,false_negative,precision,recall,f1
+capital_increase,16,16,0,0,1.0,1.0,1.0
+capital_reserve_conversion,2,2,0,0,1.0,1.0,1.0
+equity_snapshot,23,23,0,0,1.0,1.0,1.0
+establishment_contribution,8,8,0,0,1.0,1.0,1.0
+historical_context,3,3,1,0,0.75,1.0,0.8571428571428571
+out_of_scope,1,0,0,1,,0.0,
+overall_conversion,8,8,0,0,1.0,1.0,1.0
+share_transfer,10,10,0,0,1.0,1.0,1.0
+__OVERALL__,71,70,1,,0.9859154929577465,,

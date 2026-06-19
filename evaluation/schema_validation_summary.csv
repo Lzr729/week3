@@ -1,0 +1,2 @@
+﻿structured_records_total,strict_json_schema_valid,strict_json_schema_invalid,pydantic_valid,pydantic_invalid,invalid_in_both,strict_only_invalid,pydantic_only_invalid,validation_consistent,primary_failure_reason
+49,40,9,40,9,9,0,0,True,share_transfer_flow.transfers must contain at least one transfer

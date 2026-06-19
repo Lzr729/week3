@@ -1,0 +1,10 @@
+﻿validation_file,company_code,record_id,source_line,json_path,validator,message
+outputs\validation\301563_share_transfer_flow_frozen_v1_validation.csv,301563,301563_share_transfer_flow_001_evt_001,1,$.transfers,minItems,[] should be non-empty
+outputs\validation\301563_share_transfer_flow_frozen_v1_validation.csv,301563,301563_share_transfer_flow_002_evt_001,2,$.transfers,minItems,[] should be non-empty
+outputs\validation\301563_share_transfer_flow_frozen_v1_validation.csv,301563,301563_share_transfer_flow_003_evt_001,3,$.transfers,minItems,[] should be non-empty
+outputs\validation\301563_share_transfer_flow_frozen_v1_validation.csv,301563,301563_share_transfer_flow_004_evt_001,4,$.transfers,minItems,[] should be non-empty
+outputs\validation\603418_share_transfer_flow_frozen_v1_validation.csv,603418,603418_share_transfer_flow_001_evt_001,1,$.transfers,minItems,[] should be non-empty
+outputs\validation\688758_share_transfer_flow_frozen_v1_validation.csv,688758,688758_share_transfer_flow_001_evt_001,1,$.transfers,minItems,[] should be non-empty
+outputs\validation\688758_share_transfer_flow_frozen_v1_validation.csv,688758,688758_share_transfer_flow_002_evt_001,2,$.transfers,minItems,[] should be non-empty
+outputs\validation\688775_share_transfer_flow_frozen_v1_validation.csv,688775,688775_share_transfer_flow_001_evt_001,1,$.transfers,minItems,[] should be non-empty
+outputs\validation\920116_share_transfer_flow_frozen_v1_validation.csv,920116,920116_share_transfer_flow_001_evt_001,1,$.transfers,minItems,[] should be non-empty

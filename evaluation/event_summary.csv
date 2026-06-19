@@ -1,0 +1,11 @@
+﻿company_code,event_family,package_id,fields_compared,fields_matched,fields_mismatched,fields_missing_auto,fields_extra_auto,field_accuracy
+001282,subscription_flow,001282_subscription_flow_001,49,43,3,3,0,0.8775510204081632
+301563,subscription_flow,301563_subscription_flow_001,21,12,5,4,0,0.5714285714285714
+301581,share_transfer_flow,301581_share_transfer_flow_001,43,41,2,0,0,0.9534883720930233
+301581,subscription_flow,301581_subscription_flow_001,49,39,4,5,1,0.7959183673469388
+603418,share_transfer_flow,603418_share_transfer_flow_001,22,14,4,4,0,0.6363636363636364
+688758,subscription_flow,688758_subscription_flow_001,70,61,4,5,0,0.8714285714285714
+688775,equity_snapshot,688775_equity_snapshot_001,1,0,0,0,1,0.0
+688775,equity_snapshot,688775_equity_snapshot_002,10,7,0,3,0,0.7
+920100,subscription_flow,920100_subscription_flow_001,56,45,2,9,0,0.8035714285714286
+920116,subscription_flow,920116_subscription_flow_002,49,46,1,2,0,0.9387755102040817

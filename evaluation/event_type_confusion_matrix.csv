@@ -1,0 +1,9 @@
+﻿human_label,capital_increase,capital_reserve_conversion,equity_snapshot,establishment_contribution,historical_context,out_of_scope,overall_conversion,share_transfer
+capital_increase,16,0,0,0,0,0,0,0
+capital_reserve_conversion,0,2,0,0,0,0,0,0
+equity_snapshot,0,0,23,0,0,0,0,0
+establishment_contribution,0,0,0,8,0,0,0,0
+historical_context,0,0,0,0,3,0,0,0
+out_of_scope,0,0,0,0,1,0,0,0
+overall_conversion,0,0,0,0,0,0,8,0
+share_transfer,0,0,0,0,0,0,0,10

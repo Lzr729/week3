@@ -1,0 +1,10 @@
+﻿company_code,package_id,strict_record_id,strict_json_schema_status,strict_json_path,strict_validator,strict_message,pydantic_status,pydantic_errors,consistency
+301563,301563_share_transfer_flow_001,301563_share_transfer_flow_001_evt_001,INVALID,$.transfers,minItems,[] should be non-empty,INVALID,"transfers: List should have at least 1 item after validation, not 0",CONSISTENT
+301563,301563_share_transfer_flow_002,301563_share_transfer_flow_002_evt_001,INVALID,$.transfers,minItems,[] should be non-empty,INVALID,"transfers: List should have at least 1 item after validation, not 0",CONSISTENT
+301563,301563_share_transfer_flow_003,301563_share_transfer_flow_003_evt_001,INVALID,$.transfers,minItems,[] should be non-empty,INVALID,"transfers: List should have at least 1 item after validation, not 0",CONSISTENT
+301563,301563_share_transfer_flow_004,301563_share_transfer_flow_004_evt_001,INVALID,$.transfers,minItems,[] should be non-empty,INVALID,"transfers: List should have at least 1 item after validation, not 0",CONSISTENT
+603418,603418_share_transfer_flow_001,603418_share_transfer_flow_001_evt_001,INVALID,$.transfers,minItems,[] should be non-empty,INVALID,"transfers: List should have at least 1 item after validation, not 0",CONSISTENT
+688758,688758_share_transfer_flow_001,688758_share_transfer_flow_001_evt_001,INVALID,$.transfers,minItems,[] should be non-empty,INVALID,"transfers: List should have at least 1 item after validation, not 0",CONSISTENT
+688758,688758_share_transfer_flow_002,688758_share_transfer_flow_002_evt_001,INVALID,$.transfers,minItems,[] should be non-empty,INVALID,"transfers: List should have at least 1 item after validation, not 0",CONSISTENT
+688775,688775_share_transfer_flow_001,688775_share_transfer_flow_001_evt_001,INVALID,$.transfers,minItems,[] should be non-empty,INVALID,"transfers: List should have at least 1 item after validation, not 0",CONSISTENT
+920116,920116_share_transfer_flow_001,920116_share_transfer_flow_001_evt_001,INVALID,$.transfers,minItems,[] should be non-empty,INVALID,"transfers: List should have at least 1 item after validation, not 0",CONSISTENT

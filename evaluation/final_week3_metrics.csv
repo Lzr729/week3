@@ -1,0 +1,2 @@
+﻿companies_total,companies_coverage_complete,module_rows,candidate_packages_total,structured_records_total,extractor_errors_total,review_required_records_total,review_queue_rows,schema_invalid_records_total,missing_packages_total,numeric_checks_total,numeric_checks_pass,numeric_checks_fail,numeric_checks_skip,coverage_complete
+8,8,24,49,49,0,48,57,9,0,189,27,3,159,True

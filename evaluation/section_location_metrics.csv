@@ -1,0 +1,3 @@
+﻿scope,audited_company_codes,audited_company_count,audited_pages_total,version,TP,FP,FN,TN,auto_selected_pages,gold_relevant_pages,precision,recall,f1,false_positive_rate_among_selected,false_negative_rate_among_gold,evaluation_note
+manually_labeled_page_audit,603418,1,82,V1,13,35,1,33,48,14,0.2708,0.9286,0.4194,0.7291666666666666,0.07142857142857142,页面级指标仅基于人工标注的82页审计样本，当前样本来自603418友升股份；不应表述为8家公司全部页面的独立测试结果。
+manually_labeled_page_audit,603418,1,82,V2.1,14,35,0,33,49,14,0.2857,1.0,0.4444,0.7142857142857143,0.0,页面级指标仅基于人工标注的82页审计样本，当前样本来自603418友升股份；不应表述为8家公司全部页面的独立测试结果。

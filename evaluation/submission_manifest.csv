@@ -1,0 +1,16 @@
+﻿path,exists,size_bytes,category
+evaluation\coverage_audit.csv,True,3110,evaluation
+evaluation\coverage_summary.csv,True,517,evaluation
+evaluation\numeric_cross_check.csv,True,36033,evaluation
+evaluation\final_week3_metrics.csv,True,376,evaluation
+outputs\review_queue\week3_review_queue.csv,True,7893,outputs
+outputs\logs\week3_batch_run_log.csv,True,31363,outputs
+schemas\subscription_flow.schema.json,True,8541,schemas
+schemas\share_transfer_flow.schema.json,True,9096,schemas
+schemas\equity_snapshot.schema.json,True,6853,schemas
+pipeline\extract_subscription_flow_frozen_v1.py,True,52932,pipeline
+pipeline\extract_share_transfer_flow_frozen_v1.py,True,24389,pipeline
+pipeline\extract_equity_snapshot_v1.py,True,20491,pipeline
+pipeline\run_week3_batch_and_audit.py,True,25903,pipeline
+pipeline\finalize_week3_submission.py,True,21315,pipeline
+WEEK3_SUBMISSION_README.md,True,2528,WEEK3_SUBMISSION_README.md
