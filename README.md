@@ -129,8 +129,6 @@ week3/
     └── good_standard_evidence.md
 ```
 
-目录名称与教师示例不完全相同，但人工 Gold、自动输出、Prompt、日志和评估结果均保持分离。
-
 ---
 
 ## 4. 环境要求
