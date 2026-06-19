@@ -1,0 +1,23 @@
+﻿package_id,field_path,status,gold_value,auto_value,note
+603418_share_transfer_flow_001,event_family,MATCH,"""share_transfer_flow""","""share_transfer_flow""",
+603418_share_transfer_flow_001,transfer_subtype,MISMATCH,"""internal_restructuring""","""ordinary_transfer""",值不一致
+603418_share_transfer_flow_001,target_company_name,MISMATCH,"""上海友升铝业有限公司""","""友升股份""",值不一致
+603418_share_transfer_flow_001,target_security_type,MATCH,"""equity_interest""","""equity_interest""",
+603418_share_transfer_flow_001,target_is_issuer,MATCH,true,true,
+603418_share_transfer_flow_001,currency,MATCH,"""CNY""","""CNY""",
+603418_share_transfer_flow_001,pre_event_snapshot_present,MISMATCH,true,false,值不一致
+603418_share_transfer_flow_001,post_event_snapshot_present,MATCH,true,true,
+603418_share_transfer_flow_001,decision_date,MATCH,null,null,
+603418_share_transfer_flow_001,agreement_date,MATCH,"{""iso_date"": ""2003-07-30"", ""raw_text"": ""2003年7月30日""}","{""iso_date"": ""2003-07-30"", ""raw_text"": ""2003年7月30日""}",
+603418_share_transfer_flow_001,payment_date,MATCH,null,null,
+603418_share_transfer_flow_001,registration_date,MATCH,null,null,
+603418_share_transfer_flow_001,effective_date,MATCH,null,null,
+603418_share_transfer_flow_001,source_pages,MATCH,[48],[48],
+603418_share_transfer_flow_001,pre_event_snapshot_pages,MISSING_AUTO,[48],[],自动结果为空集合
+603418_share_transfer_flow_001,post_event_snapshot_pages,MATCH,[48],[48],
+603418_share_transfer_flow_001,total_transferred_registered_capital,MATCH,null,null,
+603418_share_transfer_flow_001,total_transferred_shares,MATCH,null,null,
+603418_share_transfer_flow_001,total_transferred_ratio,MISSING_AUTO,"{""normalized_unit"": ""percent"", ""normalized_value"": 55, ""raw_text"": ""55%"", ""unit"": ""%"", ""value"": 55}",null,自动结果缺少normalized_value
+603418_share_transfer_flow_001,total_consideration,MISSING_AUTO,"{""normalized_unit"": ""CNY"", ""normalized_value"": 0, ""raw_text"": ""未支付对价"", ""unit"": ""其他"", ""value"": 0}",null,自动结果缺少normalized_value
+603418_share_transfer_flow_001,target_confirmation.confirmed_by,MISMATCH,"""issuer_alias""","""chapter_context""",值不一致
+603418_share_transfer_flow_001,transfers.keys,MISSING_AUTO,"[""友升铝业（第一美亚）有限责任公司（Unison Aluminum Products（FAAF）LLC） -> Sunrise Group（USA）, Inc.（美国日升）""]",[],自动结果为空集合

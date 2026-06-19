@@ -1,0 +1,22 @@
+﻿package_id,field_path,status,gold_value,auto_value,note
+301563_subscription_flow_001,event_family,MATCH,"""subscription_flow""","""subscription_flow""",
+301563_subscription_flow_001,flow_subtype,MATCH,"""cash_increase""","""cash_increase""",
+301563_subscription_flow_001,currency,MATCH,"""CNY""","""CNY""",
+301563_subscription_flow_001,post_event_snapshot_present,MISMATCH,true,false,值不一致
+301563_subscription_flow_001,decision_date,MATCH,"{""iso_date"": ""2018-06-12"", ""raw_text"": ""2018年6月12日""}","{""iso_date"": ""2018-06-12"", ""raw_text"": ""2018年6月12日""}",
+301563_subscription_flow_001,agreement_date,MATCH,"{""iso_date"": ""2018-06-12"", ""raw_text"": ""2018年6月12日""}","{""iso_date"": ""2018-06-12"", ""raw_text"": ""2018年6月12日""}",
+301563_subscription_flow_001,payment_date,MATCH,null,null,
+301563_subscription_flow_001,verification_date,MATCH,"{""iso_date"": ""2020-12-16"", ""raw_text"": ""2020年12月16日""}","{""iso_date"": ""2020-12-16"", ""raw_text"": ""2020年12月16日""}",
+301563_subscription_flow_001,registration_date,MATCH,"{""iso_date"": ""2018-07-27"", ""raw_text"": ""2018年7月27日""}","{""iso_date"": ""2018-07-27"", ""raw_text"": ""2018年7月27日""}",
+301563_subscription_flow_001,effective_date,MATCH,"{""iso_date"": ""2018-07-27"", ""raw_text"": ""2018年7月27日""}","{""iso_date"": ""2018-07-27"", ""raw_text"": ""2018年7月27日""}",
+301563_subscription_flow_001,registration_capital_before,MATCH,"{""normalized_unit"": ""CNY"", ""normalized_value"": 40000000, ""raw_text"": ""4,000万元"", ""unit"": ""万元"", ""value"": 4000}","{""normalized_unit"": ""CNY"", ""normalized_value"": 40000000, ""raw_text"": ""4,000万元"", ""unit"": ""万元"", ""value"": 4000}",
+301563_subscription_flow_001,registration_capital_after,MISMATCH,"{""normalized_unit"": ""CNY"", ""normalized_value"": 46350000, ""raw_text"": ""4,635万元"", ""unit"": ""万元"", ""value"": 4635}","{""normalized_unit"": ""CNY"", ""normalized_value"": 42643373, ""raw_text"": ""4,264.3373万元"", ""unit"": ""万元"", ""value"": 4264.3373}",数值不一致：gold=46350000; auto=42643373; tolerance=0.01
+301563_subscription_flow_001,total_shares_before,MISSING_AUTO,"{""normalized_unit"": ""share"", ""normalized_value"": 40000000, ""raw_text"": ""40,000,000股"", ""unit"": ""股"", ""value"": 40000000}",null,自动结果缺少 normalized_value
+301563_subscription_flow_001,total_shares_after,MISSING_AUTO,"{""normalized_unit"": ""share"", ""normalized_value"": 46350000, ""raw_text"": ""46,350,000股"", ""unit"": ""股"", ""value"": 46350000}",null,自动结果缺少 normalized_value
+301563_subscription_flow_001,new_registered_capital,MISMATCH,"{""normalized_unit"": ""CNY"", ""normalized_value"": 6350000, ""raw_text"": ""635万元"", ""unit"": ""万元"", ""value"": 635}","{""normalized_unit"": ""CNY"", ""normalized_value"": 2544787, ""raw_text"": ""254.4787万元"", ""unit"": ""万元"", ""value"": 254.4787}",数值不一致：gold=6350000; auto=2544787; tolerance=0.01
+301563_subscription_flow_001,new_shares,MISSING_AUTO,"{""normalized_unit"": ""share"", ""normalized_value"": 6350000, ""raw_text"": ""635万股"", ""unit"": ""万股"", ""value"": 635}",null,自动结果缺少 normalized_value
+301563_subscription_flow_001,total_consideration,MISMATCH,"{""normalized_unit"": ""CNY"", ""normalized_value"": 151200000, ""raw_text"": ""15,120万元"", ""unit"": ""万元"", ""value"": 15120}","{""normalized_unit"": ""CNY"", ""normalized_value"": 74120000, ""raw_text"": ""7,412万元"", ""unit"": ""万元"", ""value"": 7412}",数值不一致：gold=151200000; auto=74120000; tolerance=0.01
+301563_subscription_flow_001,capital_premium,MATCH,null,null,
+301563_subscription_flow_001,source_pages,MATCH,"[59, 60, 61]","[59, 60, 61]",
+301563_subscription_flow_001,post_event_snapshot_pages,MISSING_AUTO,"[60, 61]",[],自动结果为空集合
+301563_subscription_flow_001,participants.names,MISMATCH,"[""CASREV FUND II-USD L.P."", ""中科贵银（贵州）产业投资基金（有限合伙）"", ""北京国科瑞华战略性新兴产业投资基金（有限合伙）"", ""周雪峰"", ""夏东"", ""李剑峰"", ""李文发"", ""深圳南山东方富海中小微创业投资基金合伙企业（有限合伙）"", ""珠海拓域壹号股权投资基金（有限合伙）"", ""秦国君""]","[""CASREVFUND以现金1,800万元的等值美元"", ""中科贵银以现金1,584万元"", ""南山富海以现金3,000万元"", ""周雪峰以现金60万元"", ""国科瑞华以现金7,412万元"", ""夏东以现金204万元"", ""李剑峰以现金20万元"", ""李文发以现金20万元"", ""珠海拓域以现金1,000万元"", ""秦国君以现金20万元""]","missing=['CASREV FUND II-USD L.P.', '中科贵银（贵州）产业投资基金（有限合伙）', '北京国科瑞华战略性新兴产业投资基金（有限合伙）', '周雪峰', '夏东', '李剑峰', '李文发', '深圳南山东方富海中小微创业投资基金合伙企业（有限合伙）', '珠海拓域壹号股权投资基金（有限合伙）', '秦国君']; extra=['CASREVFUND以现金1,800万元的等值美元', '中科贵银以现金1,584万元', '南山富海以现金3,000万元', '周雪峰以现金60万元', '国科瑞华以现金7,412万元', '夏东以现金204万元', '李剑峰以现金20万元', '李文发以现金20万元', '珠海拓域以现金1,000万元', '秦国君以现金20万元']"

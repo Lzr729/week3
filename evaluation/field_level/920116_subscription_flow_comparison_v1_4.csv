@@ -1,0 +1,22 @@
+﻿package_id,field_path,status,gold_value,auto_value,note
+920116_subscription_flow_002,event_family,MATCH,"""subscription_flow""","""subscription_flow""",
+920116_subscription_flow_002,flow_subtype,MATCH,"""cash_increase""","""cash_increase""",
+920116_subscription_flow_002,currency,MATCH,"""CNY""","""CNY""",
+920116_subscription_flow_002,post_event_snapshot_present,MATCH,false,false,
+920116_subscription_flow_002,decision_date,MATCH,"{""iso_date"": ""2020-09-30"", ""raw_text"": ""2020年9月30日""}","{""iso_date"": ""2020-09-30"", ""raw_text"": ""2020年9月30日""}",
+920116_subscription_flow_002,agreement_date,MATCH,null,null,
+920116_subscription_flow_002,payment_date,MATCH,null,null,
+920116_subscription_flow_002,verification_date,MATCH,null,null,
+920116_subscription_flow_002,registration_date,MATCH,null,null,
+920116_subscription_flow_002,effective_date,MISMATCH,null,"{""iso_date"": ""2020-09-30"", ""raw_text"": ""2020年9月30日""}",gold_iso=None; auto_iso=2020-09-30
+920116_subscription_flow_002,registration_capital_before,MATCH,"{""normalized_unit"": ""CNY"", ""normalized_value"": 20000000, ""raw_text"": ""2,000.00万元"", ""unit"": ""万元"", ""value"": 2000.0}","{""normalized_unit"": ""CNY"", ""normalized_value"": 20000000, ""raw_text"": ""2,000.00万元"", ""unit"": ""万元"", ""value"": 2000}",
+920116_subscription_flow_002,registration_capital_after,MATCH,"{""normalized_unit"": ""CNY"", ""normalized_value"": 24340000, ""raw_text"": ""2,434.00万元"", ""unit"": ""万元"", ""value"": 2434.0}","{""normalized_unit"": ""CNY"", ""normalized_value"": 24340000, ""raw_text"": ""2,434.00万元"", ""unit"": ""万元"", ""value"": 2434}",
+920116_subscription_flow_002,total_shares_before,MATCH,null,null,
+920116_subscription_flow_002,total_shares_after,MATCH,null,null,
+920116_subscription_flow_002,new_registered_capital,MATCH,"{""normalized_unit"": ""CNY"", ""normalized_value"": 4340000, ""raw_text"": ""434.00万元"", ""unit"": ""万元"", ""value"": 434.0}","{""normalized_unit"": ""CNY"", ""normalized_value"": 4340000, ""raw_text"": ""434.00万元"", ""unit"": ""万元"", ""value"": 434}",
+920116_subscription_flow_002,new_shares,MATCH,null,null,
+920116_subscription_flow_002,total_consideration,MISSING_AUTO,"{""normalized_unit"": ""CNY"", ""normalized_value"": 6510000, ""raw_text"": ""651.00万元"", ""unit"": ""万元"", ""value"": 651.0}",null,自动结果缺少 normalized_value
+920116_subscription_flow_002,capital_premium,MATCH,"{""normalized_unit"": ""CNY"", ""normalized_value"": 2170000, ""raw_text"": ""217.00万元"", ""unit"": ""万元"", ""value"": 217.0}","{""normalized_unit"": ""CNY"", ""normalized_value"": 2170000, ""raw_text"": ""217.00万元"", ""unit"": ""万元"", ""value"": 217}",
+920116_subscription_flow_002,source_pages,MATCH,[217],[217],
+920116_subscription_flow_002,post_event_snapshot_pages,MATCH,[],[],
+920116_subscription_flow_002,participants.names,MISSING_AUTO,"[""中科星图股份有限公司""]",[],自动结果为空集合

@@ -1,0 +1,22 @@
+﻿package_id,field_path,status,gold_value,auto_value,note
+001282_subscription_flow_001,event_family,MATCH,"""subscription_flow""","""subscription_flow""",
+001282_subscription_flow_001,flow_subtype,MISMATCH,"""cash_increase""","""mixed_increase""",值不一致
+001282_subscription_flow_001,currency,MATCH,"""CNY""","""CNY""",
+001282_subscription_flow_001,post_event_snapshot_present,MATCH,true,true,
+001282_subscription_flow_001,decision_date,MATCH,"{""iso_date"": ""2019-12-04"", ""raw_text"": ""2019年12月4日""}","{""iso_date"": ""2019-12-04"", ""raw_text"": ""2019年12月4日""}",
+001282_subscription_flow_001,agreement_date,MATCH,null,null,
+001282_subscription_flow_001,payment_date,MATCH,"{""iso_date"": ""2019-12-30"", ""raw_text"": ""截至2019年12月30日""}","{""iso_date"": ""2019-12-30"", ""raw_text"": ""2019年12月30日""}",
+001282_subscription_flow_001,verification_date,MISMATCH,"{""iso_date"": ""2020-01-09"", ""raw_text"": ""2020年1月9日""}","{""iso_date"": ""2019-12-30"", ""raw_text"": ""2019年12月30日""}",gold_iso=2020-01-09; auto_iso=2019-12-30
+001282_subscription_flow_001,registration_date,MATCH,"{""iso_date"": ""2019-12-17"", ""raw_text"": ""2019年12月17日""}","{""iso_date"": ""2019-12-17"", ""raw_text"": ""2019年12月17日""}",
+001282_subscription_flow_001,effective_date,MATCH,"{""iso_date"": ""2019-12-17"", ""raw_text"": ""2019年12月17日""}","{""iso_date"": ""2019-12-17"", ""raw_text"": ""2019年12月17日""}",
+001282_subscription_flow_001,registration_capital_before,MATCH,"{""normalized_unit"": ""CNY"", ""normalized_value"": 81500000, ""raw_text"": ""8,150万元"", ""unit"": ""万元"", ""value"": 8150}","{""normalized_unit"": ""CNY"", ""normalized_value"": 81500000, ""raw_text"": ""8,150万元"", ""unit"": ""万元"", ""value"": 8150}",
+001282_subscription_flow_001,registration_capital_after,MATCH,"{""normalized_unit"": ""CNY"", ""normalized_value"": 84980000, ""raw_text"": ""8,498万元"", ""unit"": ""万元"", ""value"": 8498}","{""normalized_unit"": ""CNY"", ""normalized_value"": 84980000, ""raw_text"": ""8,498万元"", ""unit"": ""万元"", ""value"": 8498}",
+001282_subscription_flow_001,total_shares_before,MISSING_AUTO,"{""normalized_unit"": ""share"", ""normalized_value"": 81500000, ""raw_text"": ""8,150万股"", ""unit"": ""万股"", ""value"": 8150}",null,自动结果缺少 normalized_value
+001282_subscription_flow_001,total_shares_after,MISSING_AUTO,"{""normalized_unit"": ""share"", ""normalized_value"": 84980000, ""raw_text"": ""8,498万股"", ""unit"": ""万股"", ""value"": 8498}",null,自动结果缺少 normalized_value
+001282_subscription_flow_001,new_registered_capital,MATCH,"{""normalized_unit"": ""CNY"", ""normalized_value"": 3480000, ""raw_text"": ""348万元"", ""unit"": ""万元"", ""value"": 348}","{""normalized_unit"": ""CNY"", ""normalized_value"": 3480000, ""raw_text"": null, ""unit"": null, ""value"": null}",
+001282_subscription_flow_001,new_shares,MISSING_AUTO,"{""normalized_unit"": ""share"", ""normalized_value"": 3480000, ""raw_text"": ""348万股"", ""unit"": ""万股"", ""value"": 348}",null,自动结果缺少 normalized_value
+001282_subscription_flow_001,total_consideration,MATCH,"{""normalized_unit"": ""CNY"", ""normalized_value"": 15660000, ""raw_text"": ""1,566万元"", ""unit"": ""万元"", ""value"": 1566}","{""normalized_unit"": ""CNY"", ""normalized_value"": 15660000, ""raw_text"": ""1,566万元"", ""unit"": ""万元"", ""value"": 1566}",
+001282_subscription_flow_001,capital_premium,MATCH,"{""normalized_unit"": ""CNY"", ""normalized_value"": 12180000, ""raw_text"": ""1,218万元"", ""unit"": ""万元"", ""value"": 1218}","{""normalized_unit"": ""CNY"", ""normalized_value"": 12180000, ""raw_text"": ""1,218万元"", ""unit"": ""万元"", ""value"": 1218}",
+001282_subscription_flow_001,source_pages,MATCH,"[35, 36, 37, 38]","[35, 36, 37, 38]",
+001282_subscription_flow_001,post_event_snapshot_pages,MATCH,[38],[38],
+001282_subscription_flow_001,participants.names,MISMATCH,"[""芜湖三联控股合伙企业（有限合伙）""]","[""三联合伙"", ""三联合伙以每股4.50元的价格""]","missing=['芜湖三联控股合伙企业（有限合伙）']; extra=['三联合伙', '三联合伙以每股4.50元的价格']"

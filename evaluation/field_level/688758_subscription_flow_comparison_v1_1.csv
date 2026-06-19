@@ -1,0 +1,22 @@
+﻿package_id,field_path,status,gold_value,auto_value,note
+688758_subscription_flow_001,event_family,MATCH,"""subscription_flow""","""subscription_flow""",
+688758_subscription_flow_001,flow_subtype,MATCH,"""cash_increase""","""cash_increase""",
+688758_subscription_flow_001,currency,MATCH,"""CNY""","""CNY""",
+688758_subscription_flow_001,post_event_snapshot_present,MISMATCH,true,false,值不一致
+688758_subscription_flow_001,decision_date,MISMATCH,"{""iso_date"": ""2021-02-25"", ""raw_text"": ""2021年2月25日""}","{""iso_date"": ""2021-02-26"", ""raw_text"": ""2021年2月26日""}",gold_iso=2021-02-25; auto_iso=2021-02-26
+688758_subscription_flow_001,agreement_date,MATCH,"{""iso_date"": ""2021-02-26"", ""raw_text"": ""2021年2月26日""}","{""iso_date"": ""2021-02-26"", ""raw_text"": ""2021年2月26日""}",
+688758_subscription_flow_001,payment_date,MISMATCH,"{""iso_date"": ""2021-03-09"", ""raw_text"": ""2021年3月9日""}","{""iso_date"": ""2021-04-20"", ""raw_text"": ""2021年4月20日""}",gold_iso=2021-03-09; auto_iso=2021-04-20
+688758_subscription_flow_001,verification_date,MATCH,null,null,
+688758_subscription_flow_001,registration_date,MATCH,"{""iso_date"": ""2021-04-20"", ""raw_text"": ""2021年4月20日""}","{""iso_date"": ""2021-04-20"", ""raw_text"": ""2021年4月20日""}",
+688758_subscription_flow_001,effective_date,MATCH,"{""iso_date"": ""2021-04-20"", ""raw_text"": ""2021年4月20日""}","{""iso_date"": ""2021-04-20"", ""raw_text"": ""2021年4月20日""}",
+688758_subscription_flow_001,registration_capital_before,MISSING_AUTO,"{""normalized_unit"": ""CNY"", ""normalized_value"": 24080000, ""raw_text"": ""2,408.00万元"", ""unit"": ""万元"", ""value"": 2408.0}",null,自动结果缺少 normalized_value
+688758_subscription_flow_001,registration_capital_after,MISSING_AUTO,"{""normalized_unit"": ""CNY"", ""normalized_value"": 27506769, ""raw_text"": ""2,750.6769万元"", ""unit"": ""万元"", ""value"": 2750.6769}",null,自动结果缺少 normalized_value
+688758_subscription_flow_001,total_shares_before,MATCH,null,null,
+688758_subscription_flow_001,total_shares_after,MATCH,null,null,
+688758_subscription_flow_001,new_registered_capital,MISSING_AUTO,"{""normalized_unit"": ""CNY"", ""normalized_value"": 3426769, ""raw_text"": ""342.6769万元"", ""unit"": ""万元"", ""value"": 342.6769}",null,自动结果缺少 normalized_value
+688758_subscription_flow_001,new_shares,MATCH,null,null,
+688758_subscription_flow_001,total_consideration,MISSING_AUTO,"{""normalized_unit"": ""CNY"", ""normalized_value"": 185000000, ""raw_text"": ""1.85亿元"", ""unit"": ""亿元"", ""value"": 1.85}",null,自动结果缺少 normalized_value
+688758_subscription_flow_001,capital_premium,MATCH,null,null,
+688758_subscription_flow_001,source_pages,MATCH,"[56, 57]","[56, 57]",
+688758_subscription_flow_001,post_event_snapshot_pages,MISSING_AUTO,"[56, 57]",[],自动结果为空集合
+688758_subscription_flow_001,participants.names,MISMATCH,"[""唐斌"", ""宁波梅山保税港区复星惟盈股权投资基金合伙企业（有限合伙）"", ""张敏"", ""江苏国寿疌泉股权投资中心（有限合伙）""]","[""国寿疌泉、复星惟盈、唐斌、张敏""]","missing=['唐斌', '宁波梅山保税港区复星惟盈股权投资基金合伙企业（有限合伙）', '张敏', '江苏国寿疌泉股权投资中心（有限合伙）']; extra=['国寿疌泉、复星惟盈、唐斌、张敏']"

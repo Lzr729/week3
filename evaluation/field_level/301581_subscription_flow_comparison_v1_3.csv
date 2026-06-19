@@ -1,0 +1,22 @@
+﻿package_id,field_path,status,gold_value,auto_value,note
+301581_subscription_flow_001,event_family,MATCH,"""subscription_flow""","""subscription_flow""",
+301581_subscription_flow_001,flow_subtype,MATCH,"""merger_increase""","""merger_increase""",
+301581_subscription_flow_001,currency,MATCH,"""CNY""","""CNY""",
+301581_subscription_flow_001,post_event_snapshot_present,MISMATCH,true,false,值不一致
+301581_subscription_flow_001,decision_date,MATCH,"{""iso_date"": ""2021-04-07"", ""raw_text"": ""2021年4月7日""}","{""iso_date"": ""2021-04-07"", ""raw_text"": ""2021年4月7日""}",
+301581_subscription_flow_001,agreement_date,MISMATCH,"{""iso_date"": ""2021-04-07"", ""raw_text"": ""2021年4月7日""}","{""iso_date"": ""2020-12-24"", ""raw_text"": ""2020年12月24日""}",gold_iso=2021-04-07; auto_iso=2020-12-24
+301581_subscription_flow_001,payment_date,MATCH,"{""iso_date"": ""2021-09-07"", ""raw_text"": ""截至2021年9月7日""}","{""iso_date"": ""2021-09-07"", ""raw_text"": ""2021年9月7日""}",
+301581_subscription_flow_001,verification_date,MATCH,"{""iso_date"": ""2022-11-16"", ""raw_text"": ""2022年11月16日""}","{""iso_date"": ""2022-11-16"", ""raw_text"": ""2022年11月16日""}",
+301581_subscription_flow_001,registration_date,MISMATCH,"{""iso_date"": ""2021-04-13"", ""raw_text"": ""2021年4月13日""}","{""iso_date"": ""2021-08-20"", ""raw_text"": ""2021年8月20日""}",gold_iso=2021-04-13; auto_iso=2021-08-20
+301581_subscription_flow_001,effective_date,MISMATCH,"{""iso_date"": ""2021-04-13"", ""raw_text"": ""2021年4月13日""}","{""iso_date"": ""2021-08-20"", ""raw_text"": ""2021年8月20日""}",gold_iso=2021-04-13; auto_iso=2021-08-20
+301581_subscription_flow_001,registration_capital_before,MISSING_AUTO,"{""normalized_unit"": ""CNY"", ""normalized_value"": 10000000, ""raw_text"": ""1,000.00万元"", ""unit"": ""万元"", ""value"": 1000.0}",null,自动结果缺少 normalized_value
+301581_subscription_flow_001,registration_capital_after,MISSING_AUTO,"{""normalized_unit"": ""CNY"", ""normalized_value"": 12000000, ""raw_text"": ""1,200.00万元"", ""unit"": ""万元"", ""value"": 1200.0}",null,自动结果缺少 normalized_value
+301581_subscription_flow_001,total_shares_before,MATCH,null,null,
+301581_subscription_flow_001,total_shares_after,MATCH,null,null,
+301581_subscription_flow_001,new_registered_capital,MISSING_AUTO,"{""normalized_unit"": ""CNY"", ""normalized_value"": 2000000, ""raw_text"": ""200万元"", ""unit"": ""万元"", ""value"": 200.0}",null,自动结果缺少 normalized_value
+301581_subscription_flow_001,new_shares,MATCH,null,null,
+301581_subscription_flow_001,total_consideration,EXTRA_AUTO,null,"{""normalized_unit"": ""CNY"", ""normalized_value"": 9360000, ""raw_text"": ""936万元"", ""unit"": ""万元"", ""value"": 936}",Gold为空但自动结果有值
+301581_subscription_flow_001,capital_premium,MATCH,null,null,
+301581_subscription_flow_001,source_pages,MATCH,"[43, 44]","[43, 44]",
+301581_subscription_flow_001,post_event_snapshot_pages,MISSING_AUTO,[44],[],自动结果为空集合
+301581_subscription_flow_001,participants.names,MISSING_AUTO,"[""昆山谷捷金属制品有限公司""]",[],自动结果为空集合
