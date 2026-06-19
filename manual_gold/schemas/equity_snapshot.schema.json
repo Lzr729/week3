@@ -1,0 +1,338 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "equity_snapshot.schema.json",
+  "title": "IPO Equity Snapshot",
+  "description": "发行人某一时点的股权或股本结构快照，包括有限公司出资结构、股份公司股东结构及发行前后股本结构。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "company_code",
+    "company_name",
+    "package_id",
+    "event_id",
+    "event_family",
+    "event_title",
+    "snapshot_type",
+    "snapshot_date",
+    "source_pages",
+    "evidence",
+    "issuer_confirmed",
+    "issuer_confirmation",
+    "holders",
+    "total_registered_capital",
+    "total_shares",
+    "total_ratio",
+    "needs_manual_review",
+    "review_reasons"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "company_code": {
+      "type": "string",
+      "pattern": "^[0-9]{6}$"
+    },
+    "company_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "package_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_family": {
+      "type": "string",
+      "const": "equity_snapshot"
+    },
+    "event_title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "snapshot_type": {
+      "type": "string",
+      "enum": [
+        "post_event_structure",
+        "historical_shareholding",
+        "current_shareholding",
+        "pre_post_ipo_structure",
+        "ownership_chart",
+        "other"
+      ]
+    },
+    "snapshot_date": {
+      "$ref": "#/$defs/date_value"
+    },
+    "source_pages": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/evidence_item"
+      }
+    },
+    "issuer_confirmed": {
+      "type": "boolean"
+    },
+    "issuer_confirmation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "raw_text",
+        "confirmed_by"
+      ],
+      "properties": {
+        "raw_text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "confirmed_by": {
+          "type": "string",
+          "enum": [
+            "explicit_issuer_name",
+            "issuer_alias",
+            "chapter_context",
+            "table_total",
+            "multiple_evidence",
+            "manual_confirmation"
+          ]
+        }
+      }
+    },
+    "holders": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/holder_item"
+      }
+    },
+    "total_registered_capital": {
+      "$ref": "#/$defs/numeric_value"
+    },
+    "total_shares": {
+      "$ref": "#/$defs/numeric_value"
+    },
+    "total_ratio": {
+      "$ref": "#/$defs/numeric_value"
+    },
+    "currency": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "CNY",
+        "USD",
+        "HKD",
+        "EUR",
+        null
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "needs_manual_review": {
+      "type": "boolean"
+    },
+    "review_reasons": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "$defs": {
+    "date_value": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "raw_text",
+        "iso_date"
+      ],
+      "properties": {
+        "raw_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "iso_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        }
+      }
+    },
+    "numeric_value": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "raw_text",
+        "value",
+        "unit",
+        "normalized_value",
+        "normalized_unit"
+      ],
+      "properties": {
+        "raw_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "unit": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "元",
+            "万元",
+            "亿元",
+            "股",
+            "万股",
+            "%",
+            "其他",
+            null
+          ]
+        },
+        "normalized_value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "normalized_unit": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "CNY",
+            "share",
+            "percent",
+            "other",
+            null
+          ]
+        }
+      }
+    },
+    "evidence_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "page",
+        "evidence_role",
+        "text"
+      ],
+      "properties": {
+        "page": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "evidence_role": {
+          "type": "string",
+          "enum": [
+            "snapshot_date",
+            "issuer_confirmation",
+            "holder_table",
+            "total",
+            "ownership_chart",
+            "other"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "holder_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "holder_name",
+        "direct_holder",
+        "registered_capital",
+        "shares",
+        "ownership_ratio",
+        "share_type",
+        "notes"
+      ],
+      "properties": {
+        "holder_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "direct_holder": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "registered_capital": {
+          "$ref": "#/$defs/numeric_value"
+        },
+        "shares": {
+          "$ref": "#/$defs/numeric_value"
+        },
+        "ownership_ratio": {
+          "$ref": "#/$defs/numeric_value"
+        },
+        "share_type": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "common_share",
+            "state_owned_share",
+            "foreign_share",
+            "restricted_share",
+            "unrestricted_share",
+            "equity_interest",
+            "other",
+            null
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}
