@@ -1,0 +1,9 @@
+﻿company_code,company_name,pdf_filename,pdf_path,pdf_page_count,parse_status,parse_method,notes
+001282,三联锻造,001282_三联锻造_IPO招股说明书.pdf,data/pdf/001282_三联锻造_IPO招股说明书.pdf,476,readable,PyMuPDF,
+301563,云汉芯城,301563_云汉芯城_IPO招股说明书.pdf,data/pdf/301563_云汉芯城_IPO招股说明书.pdf,443,readable,PyMuPDF,
+301581,黄山谷捷,301581_黄山谷捷_IPO招股说明书.pdf,data/pdf/301581_黄山谷捷_IPO招股说明书.pdf,343,readable,PyMuPDF,
+603418,友升股份,603418_友升股份_IPO招股说明书.pdf,data/pdf/603418_友升股份_IPO招股说明书.pdf,398,readable,PyMuPDF,
+688758,赛分科技,688758_赛分科技_IPO招股说明书.pdf,data/pdf/688758_赛分科技_IPO招股说明书.pdf,468,readable,PyMuPDF,
+688775,影石创新,688775_影石创新_IPO招股说明书.pdf,data/pdf/688775_影石创新_IPO招股说明书.pdf,555,readable,PyMuPDF,
+920100,三协电机,920100_三协电机_IPO招股说明书.pdf,data/pdf/920100_三协电机_IPO招股说明书.pdf,379,readable,PyMuPDF,
+920116,星图测控,920116_星图测控_IPO招股说明书.pdf,data/pdf/920116_星图测控_IPO招股说明书.pdf,365,readable,PyMuPDF,
